@@ -1,0 +1,11 @@
+{
+  "decided_at": "2026-11-13, sau khi chạy dev, trước khi chạy test",
+  "benchmark_commit": "e3698b3",
+  "dev": {"A": {"evidence_hit_at_3": "7/16", "hit_at_1": "5/16", "filter_compliant": "2/4"},
+          "B": {"evidence_hit_at_3": "13/16", "hit_at_1": "10/16", "filter_compliant": "3/4"},
+          "C": {"evidence_hit_at_3": "13/16", "hit_at_1": "10/16", "filter_compliant": "4/4"}},
+  "criterion": ["Evidence Hit@3 dev", "Hit@1 dev", "ít chunk / ingest nhanh hơn"],
+  "result_of_criterion": "B và C hòa ở cả 3 tiêu chí (cùng index para450, 616 chunk).",
+  "selected": "C",
+  "tie_break_note": "Tiêu chí bổ sung KHÔNG có trong tiêu chí đăng ký trước: C tuân thủ filter 4/4 so với 3/4 của B. Test vẫn báo cáo cho cả A, B, C."
+}

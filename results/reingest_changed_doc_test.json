@@ -1,0 +1,18 @@
+{
+  "run_at_utc": "2026-11-13T11:07:43+00:00",
+  "scenario": "pages 2-4 of blld-2019; the middle page truncated to half in v2",
+  "v1": {
+    "chunks": 40,
+    "embedded_now": 40,
+    "pruned": 0,
+    "rows_in_store": 40
+  },
+  "v2": {
+    "chunks": 33,
+    "embedded_now": 1,
+    "unchanged_skipped": 32,
+    "pruned": 7,
+    "rows_in_store": 33
+  },
+  "ok": true
+}

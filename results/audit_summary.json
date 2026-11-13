@@ -1,0 +1,78 @@
+{
+  "A": {
+    "coherence": {
+      "n": 10,
+      "mean": 0.0,
+      "counts": {
+        "0": 10,
+        "1": 0,
+        "2": 0
+      }
+    },
+    "metadata": {
+      "records": 15,
+      "labelled": 15,
+      "complete_and_correct": 12
+    },
+    "grounding": {
+      "n": 5,
+      "counts": {
+        "0": 1,
+        "1": 0,
+        "2": 4
+      },
+      "mean": 1.6
+    }
+  },
+  "B": {
+    "coherence": {
+      "n": 10,
+      "mean": 1.6,
+      "counts": {
+        "0": 0,
+        "1": 4,
+        "2": 6
+      }
+    },
+    "metadata": {
+      "records": 15,
+      "labelled": 15,
+      "complete_and_correct": 14
+    },
+    "grounding": {
+      "n": 5,
+      "counts": {
+        "0": 0,
+        "1": 0,
+        "2": 5
+      },
+      "mean": 2.0
+    }
+  },
+  "C": {
+    "coherence": {
+      "n": 10,
+      "mean": 1.6,
+      "counts": {
+        "0": 0,
+        "1": 4,
+        "2": 6
+      },
+      "note": "C reuses B chunks"
+    },
+    "metadata": {
+      "records": 15,
+      "labelled": 15,
+      "complete_and_correct": 15
+    },
+    "grounding": {
+      "n": 5,
+      "counts": {
+        "0": 0,
+        "1": 0,
+        "2": 5
+      },
+      "mean": 2.0
+    }
+  }
+}

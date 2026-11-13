@@ -1,0 +1,40 @@
+{
+  "split": "test",
+  "environment": {
+    "run_at_utc": "2026-11-13T14:35:10+00:00",
+    "python": "3.12.15",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "pypdf": "6.21.4",
+    "psycopg": "3.3.8",
+    "sentence-transformers": "6.3.0",
+    "torch": "2.15.0",
+    "transformers": "5.22.2",
+    "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "model_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "dimensions": 384,
+    "max_seq_length": 128,
+    "provider": "local sentence-transformers (CPU)",
+    "cost_usd": 0
+  },
+  "query_embed_seconds": 0.044,
+  "strategies": {
+    "A": {
+      "index": "fixed450",
+      "use_filter": false,
+      "description": "Fixed 450-char windows, 50 overlap, per page; no filter",
+      "search_seconds": 0.054
+    },
+    "B": {
+      "index": "para450",
+      "use_filter": false,
+      "description": "Paragraph/heading-aware chunks <=450 chars (never mixing two articles), per page; no filter",
+      "search_seconds": 0.047
+    },
+    "C": {
+      "index": "para450",
+      "use_filter": true,
+      "description": "Same chunks as B; apply `chapter` filter only when the question provides one",
+      "search_seconds": 0.033
+    }
+  }
+}

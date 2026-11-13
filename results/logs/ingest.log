@@ -1,0 +1,9 @@
+2026-11-13 18:07:27,037 INFO read 46 pages (46 with >= 200 chars) in 1.2s
+2026-11-13 18:07:29,489 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-11-13 18:07:29,493 INFO Loading SentenceTransformer model from sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2.
+2026-11-13 18:07:29,965 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-13 18:07:30,256 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-13 18:07:30,872 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-11-13 18:07:34,255 INFO fixed450: 492 chunks, embedded 492, pruned 0, rows 492, 3.2s
+2026-11-13 18:07:37,465 INFO para450: 616 chunks, embedded 616, pruned 0, rows 616, 3.2s
+2026-11-13 18:07:37,567 INFO re-ingest same version: OK (no duplicates)

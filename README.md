@@ -45,3 +45,44 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 | Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
 
 [data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+
+---
+
+## Bài làm: Đặng Việt Anh (2A202603685)
+
+Corpus: Bộ luật Lao động 45/2019/QH14 ([data/manifest.csv](data/manifest.csv)). Báo cáo: [report/individual/2A202603685_DangVietAnh.md](report/individual/2A202603685_DangVietAnh.md).
+
+### Setup
+
+```bash
+python3 -m venv .venv && source .venv/bin/activate          # Python 3.12
+pip install -r starter/requirements.txt sentence-transformers==6.3.0
+cd starter
+cp .env.example .env   # EMBEDDING_MODEL=sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+docker compose -p day6_student_starter up -d --wait         # PostgreSQL 16 + pgvector 0.8.7
+python scripts/check_setup.py
+python scripts/fetch_corpus.py                              # tải PDF theo manifest, kiểm sha256
+```
+
+Model chạy local trên CPU (lần đầu tự tải từ Hugging Face, ~470 MB), không cần API key, chi phí 0.
+Phiên bản thư viện đầy đủ: [results/pip_freeze.txt](results/pip_freeze.txt).
+
+### Chạy (từ `starter/`)
+
+```bash
+python -m src.run ingest                 # đọc, chuẩn hóa, chunk 2 index, embed, upsert; kiểm tra nạp lại không trùng
+python -m src.run reingest-test          # giả lập tài liệu đổi: chỉ embed chunk đổi, xóa chunk cũ
+python -m src.run verify-benchmark       # kiểm evidence nằm trên trang gold
+python -m src.run retrieve --split dev   # chọn chiến lược trên dev
+python -m src.run retrieve --split test
+python -m src.run retrieve --split all
+python -m src.run audit-sheets           # tạo bảng chấm coherence / metadata / grounding
+python -m src.run audit-summary          # tổng hợp nhãn
+```
+
+| Thư mục / file | Nội dung |
+|---|---|
+| `starter/src/` | ingestion, chunking, embeddings, store (pgvector), evaluation, run, config |
+| `benchmark/` | 21 câu (16 dev / 5 test), gold page + evidence, README tiêu chí |
+| `artifacts/experiment_log.csv` | cấu hình A/B/C, giả thuyết, kết quả |
+| `results/` | thống kê ingest, trace top-3 (`traces/`), `summary.md`, nhãn audit (`audit/`), log (`logs/`) |

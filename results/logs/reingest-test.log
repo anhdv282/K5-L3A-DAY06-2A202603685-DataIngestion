@@ -1,0 +1,6 @@
+2026-11-13 18:07:41,780 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-11-13 18:07:41,789 INFO Loading SentenceTransformer model from sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2.
+2026-11-13 18:07:42,250 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-13 18:07:42,540 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-13 18:07:43,184 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-11-13 18:07:43,619 INFO changed-document test: {'run_at_utc': '2026-11-13T11:07:43+00:00', 'scenario': 'pages 2-4 of blld-2019; the middle page truncated to half in v2', 'v1': {'chunks': 40, 'embedded_now': 40, 'pruned': 0, 'rows_in_store': 40}, 'v2': {'chunks': 33, 'embedded_now': 1, 'unchanged_skipped': 32, 'pruned': 7, 'rows_in_store': 33}, 'ok': True}

@@ -1,0 +1,97 @@
+{
+  "environment": {
+    "run_at_utc": "2026-11-13T11:07:30+00:00",
+    "python": "3.12.15",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "pypdf": "6.21.4",
+    "psycopg": "3.3.8",
+    "sentence-transformers": "6.3.0",
+    "torch": "2.15.0",
+    "transformers": "5.22.2",
+    "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "model_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "dimensions": 384,
+    "max_seq_length": 128,
+    "provider": "local sentence-transformers (CPU)",
+    "cost_usd": 0
+  },
+  "indexes": {
+    "fixed450": {
+      "index": "fixed450",
+      "spec": {
+        "chunker": "fixed_size",
+        "size": 450,
+        "overlap": 50
+      },
+      "chunks": 492,
+      "embedded_now": 492,
+      "unchanged_skipped": 0,
+      "pruned": 0,
+      "rows_in_store": 492,
+      "char_length": {
+        "min": 54,
+        "p25": 450.0,
+        "median": 450.0,
+        "p75": 450.0,
+        "max": 450,
+        "mean": 432.3
+      },
+      "total_chars": 212712,
+      "token_length": {
+        "min": 15,
+        "p25": 111.0,
+        "median": 115.0,
+        "p75": 120.0,
+        "max": 143,
+        "mean": 112.2
+      },
+      "total_tokens": 55197,
+      "chunks_over_max_seq_length": 25,
+      "seconds": {
+        "chunk": 0.002,
+        "embed": 3.134,
+        "store": 0.075,
+        "total": 3.248
+      },
+      "cost_usd": 0
+    },
+    "para450": {
+      "index": "para450",
+      "spec": {
+        "chunker": "by_paragraph",
+        "max_size": 450
+      },
+      "chunks": 616,
+      "embedded_now": 616,
+      "unchanged_skipped": 0,
+      "pruned": 0,
+      "rows_in_store": 616,
+      "char_length": {
+        "min": 17,
+        "p25": 232.0,
+        "median": 322.0,
+        "p75": 395.0,
+        "max": 531,
+        "mean": 307.3
+      },
+      "total_chars": 189320,
+      "token_length": {
+        "min": 7,
+        "p25": 60.25,
+        "median": 84.0,
+        "p75": 102.0,
+        "max": 145,
+        "mean": 80.1
+      },
+      "total_tokens": 49329,
+      "chunks_over_max_seq_length": 4,
+      "seconds": {
+        "chunk": 0.003,
+        "embed": 3.079,
+        "store": 0.096,
+        "total": 3.209
+      },
+      "cost_usd": 0
+    }
+  }
+}

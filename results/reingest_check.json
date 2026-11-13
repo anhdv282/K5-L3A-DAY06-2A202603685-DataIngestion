@@ -1,0 +1,18 @@
+{
+  "run_at_utc": "2026-11-13T11:07:37+00:00",
+  "indexes": {
+    "fixed450": {
+      "rows_before": 492,
+      "rows_after": 492,
+      "embedded_on_second_pass": 0,
+      "pruned_on_second_pass": 0
+    },
+    "para450": {
+      "rows_before": 616,
+      "rows_after": 616,
+      "embedded_on_second_pass": 0,
+      "pruned_on_second_pass": 0
+    }
+  },
+  "ok": true
+}

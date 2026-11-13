@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size (cửa sổ ký tự theo trang),450,50,"document_id, source, page, chapter, chapter_title, section, article, article_title (theo vị trí bắt đầu chunk)",không,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (384 chiều; cosine; pgvector exact),Baseline: cửa sổ cố định cắt ngang câu/khoản nên evidence dễ bị tách và Hit@3 thấp hơn B,5/16,7/16,2/5,3/5,"492 chunk; ingest 3.25 s; 25 chunk >128 token bị cắt khi embed; 6/21 câu đúng trang nhưng evidence bị tách"
+B,by_paragraph (khoản/điểm; Điều mới luôn mở chunk mới),<=450,0,giống A,không,giống A,Chunk theo cấu trúc Điều/khoản giữ trọn ý nên Hit@1/Hit@3 cao hơn A (thay đúng 1 yếu tố: chunking),10/16,13/16,4/5,5/5,"616 chunk; ingest 3.21 s; 4 chunk >128 token; filter tuân thủ 4/6 (không lọc)"
+C,giống B (dùng chung index para450),<=450,0,giống A,"chapter = n, chỉ khi câu hỏi có ""Theo Chương N""",giống A,Lọc theo chương loại nhiễu từ chương khác trên câu filter; với câu không filter C = B (thay đúng 1 yếu tố: filter),10/16,13/16,4/5,5/5,"Filter tuân thủ 6/6; hòa B theo tiêu chí đã chốt; chọn C bằng tiêu chí phụ (xem results/strategy_selection.json)"

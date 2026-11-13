@@ -1,0 +1,151 @@
+id,strategy,question,question_filter,expected_answer,evidence_quote,gold_pages,top1,top2,top3,auto_evidence_hit3,score_0_1_2,reason,labeler
+q17,A,Lao động nữ sinh đôi thì được nghỉ thai sản tổng cộng bao lâu?,,"07 tháng: 06 tháng nghỉ thai sản, cộng thêm 01 tháng cho con thứ 02 (thời gian nghỉ trước khi sinh không quá 02 tháng).","Trường hợp lao động nữ sinh đôi trở lên thì tính từ con thứ 02 trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng.",[29],"[blld-2019 p29 0.847] g. Trường hợp lao động nữ sinh đôi trở lên thì tính từ con thứ 02 trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng.
+
+2. Trong thời gian nghỉ thai sản, lao động nữ được hưởng chế độ thai sản theo quy định của pháp luật về bảo hiểm xã hội.
+
+3. Hết thời gian nghỉ thai sản theo quy định tại khoản 1 Điều này, nếu có nhu cầu, lao động nữ có thể nghỉ thêm một thời gian không hưởng lương sau khi thỏa thuận với người sử dụng lao động.
+
+4. Trước khi hế","[blld-2019 p28 0.783] ian lao động nữ mang thai hoặc nuôi con dưới 12 tháng tuổi thì được ưu tiên giao kết hợp đồng lao động mới.
+
+4. Lao động nữ trong thời gian hành kinh được nghỉ mỗi ngày 30 phút, trong thời gian nuôi con dưới 12 tháng tuổi được nghỉ mỗi ngày 60 phút trong thời gian làm việc. Thời gian nghỉ vẫn được hưởng đủ tiền lương theo hợp đồng lao động.
+
+Điều 138. Quyền đơn phương chấm dứt, tạm hoãn hợp đồng lao động của lao động nữ mang thai
+
+1. Lao động nữ ","[blld-2019 p29 0.771]  phải bằng thời gian do cơ sở khám bệnh, chữa bệnh có thẩm quyền chỉ định tạm nghỉ. Trường hợp không có chỉ định của cơ sở khám bệnh, chữa bệnh có thẩm quyền về thời gian tạm nghỉ thì hai bên thỏa thuận về thời gian tạm hoãn thực hiện hợp đồng lao động.
+
+Điều 139. Nghỉ thai sản
+
+1. Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng. Trường hợp lao động nữ sinh đôi trở lên thì tín",True,2,"Top1 có câu sinh đôi, top3 có 06 tháng: đủ để ra 07 tháng","AI (Claude Opus 5.5), chưa được học viên xác nhận"
+q18,A,"Theo Chương X, người sử dụng lao động có được bố trí lao động nữ đang mang thai từ tháng thứ 7 làm thêm giờ hoặc làm việc ban đêm không?","{""chapter"": 10}","Không được (cũng không được cử đi công tác xa); từ tháng thứ 06 nếu làm việc ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo.","Người sử dụng lao động không được sử dụng người lao động làm việc ban đêm, làm thêm giờ và đi công tác xa trong trường hợp sau đây: a) Mang thai từ tháng thứ 07",[28],"[blld-2019 p29 0.795] g. Trường hợp lao động nữ sinh đôi trở lên thì tính từ con thứ 02 trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng.
+
+2. Trong thời gian nghỉ thai sản, lao động nữ được hưởng chế độ thai sản theo quy định của pháp luật về bảo hiểm xã hội.
+
+3. Hết thời gian nghỉ thai sản theo quy định tại khoản 1 Điều này, nếu có nhu cầu, lao động nữ có thể nghỉ thêm một thời gian không hưởng lương sau khi thỏa thuận với người sử dụng lao động.
+
+4. Trước khi hế","[blld-2019 p29 0.775] thuận với người sử dụng lao động.
+
+4. Trước khi hết thời gian nghỉ thai sản theo quy định tại khoản 1 Điều này, lao động nữ có thể trở lại làm việc khi đã nghỉ ít nhất được 04 tháng nhưng người lao động phải báo trước, được người sử dụng lao động đồng ý và có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc đi làm sớm không có hại cho sức khỏe của người lao động. Trong trường hợp này, ngoài tiền lương của những ngày làm việc do người","[blld-2019 p29 0.763]  ngoài tiền lương của những ngày làm việc do người sử dụng lao động trả, lao động nữ vẫn tiếp tục được hưởng trợ cấp thai sản theo quy định của pháp luật về bảo hiểm xã hội.
+
+5. Lao động nam khi vợ sinh con, người lao động nhận nuôi con nuôi dưới 06 tháng tuổi, lao động nữ mang thai hộ và người lao động là người mẹ nhờ mang thai hộ được nghỉ việc hưởng chế độ thai sản theo quy định của pháp luật về bảo hiểm xã hội.
+
+Điều 140. Bảo đảm việc làm cho",False,0,Không chunk nào chứa Điều 137 khoản 1; top-3 đều là Điều 139 (nghỉ thai sản),"AI (Claude Opus 5.5), chưa được học viên xác nhận"
+q19,A,"Theo Chương XI, một em 14 tuổi đi làm thì được làm việc tối đa bao nhiêu giờ mỗi ngày?","{""chapter"": 11}","Không quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần; không được làm thêm giờ, làm việc ban đêm.",Thời giờ làm việc của người chưa đủ 15 tuổi không được quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần,[30],"[blld-2019 p30 0.762] 
+Điều 146. Thời giờ làm việc của người chưa thành niên
+
+1. Thời giờ làm việc của người chưa đủ 15 tuổi không được quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần; không được làm thêm giờ, làm việc vào ban đêm.
+
+2. Thời giờ làm việc của người từ đủ 15 tuổi đến chưa đủ 18 tuổi không được quá 08 giờ trong 01 ngày và 40 giờ trong 01 tuần. Người từ đủ 15 tuổi đến chưa đủ 18 tuổi có thể được làm thêm giờ, làm việc vào ban đêm trong một số nghề, công v","[blld-2019 p23 0.699] nh thường trong 01 ngày; trường hợp áp dụng quy định thời giờ làm việc bình thường theo tuần thì tổng số giờ làm việc bình thường và số giờ làm thêm không quá 12 giờ trong 01 ngày; không quá 40 giờ trong 01 tháng;
+
+c) Bảo đảm số giờ làm thêm của người lao động không quá 200 giờ trong 01 năm, trừ trường hợp quy định tại khoản 3 Điều này.
+
+3. Người sử dụng lao động được sử dụng người lao động làm thêm không quá 300 giờ trong 01 năm trong một số ngà","[blld-2019 p30 0.694] iờ, làm việc vào ban đêm trong một số nghề, công việc theo danh mục do Bộ trưởng Bộ Lao động - Thương binh và Xã hội ban hành.
+
+Điều 147. Công việc và nơi làm việc cấm sử dụng người lao động từ đủ 15 tuổi đến chưa đủ 18 tuổi
+
+1. Cấm sử dụng người lao động từ đủ 15 tuổi đến chưa đủ 18 tuổi làm các công việc sau đây:
+
+a) Mang, vác, nâng các vật nặng vượt quá thể trạng của người chưa thành niên;
+
+b) Sản xuất, kinh doanh cồn, rượu, bia, thuốc lá, chấ",True,2,Top1 là Điều 146 khoản 1,"AI (Claude Opus 5.5), chưa được học viên xác nhận"
+q20,A,"Với hợp đồng thuê người giúp việc gia đình, nếu một bên muốn đơn phương chấm dứt hợp đồng thì phải báo trước bao lâu?",,Có thể chấm dứt bất kỳ khi nào nhưng phải báo trước ít nhất 15 ngày.,Một bên có quyền đơn phương chấm dứt hợp đồng lao động bất kỳ khi nào nhưng phải báo trước ít nhất 15 ngày.,[33],"[blld-2019 p5 0.705] m chấm dứt hiệu lực của hợp đồng trong thời gian không quá 36 tháng kể từ thời điểm có hiệu lực của hợp đồng.
+
+2. Khi hợp đồng lao động quy định tại điểm b khoản 1 Điều này hết hạn mà người lao động vẫn tiếp tục làm việc thì thực hiện như sau:
+
+a) Trong thời hạn 30 ngày kể từ ngày hợp đồng lao động hết hạn, hai bên phải ký kết hợp đồng lao động mới; trong thời gian chưa ký kết hợp đồng lao động mới thì quyền, nghĩa vụ và lợi ích của hai bên được ","[blld-2019 p33 0.683] a đình.
+
+Điều 162. Hợp đồng lao động đối với lao động là người giúp việc gia đình
+
+1. Người sử dụng lao động phải giao kết hợp đồng lao động bằng văn bản với lao động là người giúp việc gia đình.
+
+2. Thời hạn của hợp đồng lao động đối với lao động là người giúp việc gia đình do hai bên thỏa thuận. Một bên có quyền đơn phương chấm dứt hợp đồng lao động bất kỳ khi nào nhưng phải báo trước ít nhất 15 ngày.
+
+3. Hai bên thỏa thuận trong hợp đồng lao đ","[blld-2019 p5 0.666] i thì quyền, nghĩa vụ và lợi ích của hai bên được thực hiện theo hợp đồng đã giao kết;
+
+b) Nếu hết thời hạn 30 ngày kể từ ngày hợp đồng lao động hết hạn mà hai bên không ký kết hợp đồng lao động mới thì hợp đồng đã giao kết theo quy định tại điểm b khoản 1 Điều này trở thành hợp đồng lao động không xác định thời hạn;
+
+c) Trường hợp hai bên ký kết hợp đồng lao động mới là hợp đồng lao động xác định thời hạn thì cũng chỉ được ký thêm 01 lần, sau đó",True,2,"Top2 có Điều 162 khoản 2 (15 ngày); top1, top3 là nhiễu từ Điều 20","AI (Claude Opus 5.5), chưa được học viên xác nhận"
+q21,A,Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động cá nhân là bao lâu?,,01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm.,Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động cá nhân là 01 năm kể từ ngày phát hiện ra hành vi,[39],"[blld-2019 p39 0.863] o động thực hiện hòa giải tranh chấp lao động cá nhân là 06 tháng kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm.
+
+2. Thời hiệu yêu cầu Hội đồng trọng tài lao động giải quyết tranh chấp lao động cá nhân là 09 tháng kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm.
+
+3. Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động cá nhân là ","[blld-2019 p39 0.802]  Tòa án giải quyết tranh chấp lao động cá nhân là 01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm.
+
+4. Trường hợp người yêu cầu chứng minh được vì sự kiện bất khả kháng, trở ngại khách quan hoặc lý do khác theo quy định của pháp luật mà không thể yêu cầu đúng thời hạn quy định tại Điều này thì thời gian có sự kiện bất khả kháng, trở ngại khách quan hoặc lý do đó không tính vào thời h","[blld-2019 p40 0.796] . Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động tập thể về quyền là 01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền hợp pháp của mình bị vi phạm.
+
+Mục 4. THẨM QUYỀN VÀ TRÌNH TỰ GIẢI QUYẾT TRANH CHẤP LAO ĐỘNG TẬP THỂ VỀ LỢI ÍCH
+
+Điều 195. Thẩm quyền giải quyết tranh chấp lao động tập thể về lợi ích
+
+1. Tổ chức, cá nhân có thẩm quyền giải quyết tranh chấp lao động tập thể về lợi ích bao gồm:
+
+a) Hòa giải viên lao đ",False,2,Đáp án '01 năm' có ở top2 dù câu bị cắt ('Tòa án … là 01 năm'); auto metric báo miss vì evidence bị tách 2 chunk,"AI (Claude Opus 5.5), chưa được học viên xác nhận"
+q17,B,Lao động nữ sinh đôi thì được nghỉ thai sản tổng cộng bao lâu?,,"07 tháng: 06 tháng nghỉ thai sản, cộng thêm 01 tháng cho con thứ 02 (thời gian nghỉ trước khi sinh không quá 02 tháng).","Trường hợp lao động nữ sinh đôi trở lên thì tính từ con thứ 02 trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng.",[29],"[blld-2019 p29 0.825] Điều 139. Nghỉ thai sản
+
+1. Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng. Trường hợp lao động nữ sinh đôi trở lên thì tính từ con thứ 02 trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng.
+
+2. Trong thời gian nghỉ thai sản, lao động nữ được hưởng chế độ thai sản theo quy định của pháp luật về bảo hiểm xã hội.","[blld-2019 p29 0.748] Trong trường hợp này, ngoài tiền lương của những ngày làm việc do người sử dụng lao động trả, lao động nữ vẫn tiếp tục được hưởng trợ cấp thai sản theo quy định của pháp luật về bảo hiểm xã hội.
+
+5. Lao động nam khi vợ sinh con, người lao động nhận nuôi con nuôi dưới 06 tháng tuổi, lao động nữ mang thai hộ và người lao động là người mẹ nhờ mang thai hộ được nghỉ việc hưởng chế độ thai sản theo quy định của pháp luật về bảo hiểm xã hội.",[blld-2019 p9 0.741] 3. Người lao động nữ mang thai; người lao động đang nghỉ thai sản hoặc nuôi con dưới 12 tháng tuổi.,True,2,Top1 có cả 06 tháng và câu sinh đôi,"AI (Claude Opus 5.5), chưa được học viên xác nhận"
+q18,B,"Theo Chương X, người sử dụng lao động có được bố trí lao động nữ đang mang thai từ tháng thứ 7 làm thêm giờ hoặc làm việc ban đêm không?","{""chapter"": 10}","Không được (cũng không được cử đi công tác xa); từ tháng thứ 06 nếu làm việc ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo.","Người sử dụng lao động không được sử dụng người lao động làm việc ban đêm, làm thêm giờ và đi công tác xa trong trường hợp sau đây: a) Mang thai từ tháng thứ 07",[28],"[blld-2019 p28 0.808] Điều 137. Bảo vệ thai sản
+
+1. Người sử dụng lao động không được sử dụng người lao động làm việc ban đêm, làm thêm giờ và đi công tác xa trong trường hợp sau đây:
+
+a) Mang thai từ tháng thứ 07 hoặc từ tháng thứ 06 nếu làm việc ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo;
+
+b) Đang nuôi con dưới 12 tháng tuổi, trừ trường hợp được người lao động đồng ý.","[blld-2019 p29 0.805] 3. Hết thời gian nghỉ thai sản theo quy định tại khoản 1 Điều này, nếu có nhu cầu, lao động nữ có thể nghỉ thêm một thời gian không hưởng lương sau khi thỏa thuận với người sử dụng lao động.","[blld-2019 p29 0.794] 4. Trước khi hết thời gian nghỉ thai sản theo quy định tại khoản 1 Điều này, lao động nữ có thể trở lại làm việc khi đã nghỉ ít nhất được 04 tháng nhưng người lao động phải báo trước, được người sử dụng lao động đồng ý và có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc đi làm sớm không có hại cho sức khỏe của người lao động.",True,2,Top1 là Điều 137 khoản 1 điểm a,"AI (Claude Opus 5.5), chưa được học viên xác nhận"
+q19,B,"Theo Chương XI, một em 14 tuổi đi làm thì được làm việc tối đa bao nhiêu giờ mỗi ngày?","{""chapter"": 11}","Không quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần; không được làm thêm giờ, làm việc ban đêm.",Thời giờ làm việc của người chưa đủ 15 tuổi không được quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần,[30],"[blld-2019 p30 0.781] Điều 146. Thời giờ làm việc của người chưa thành niên
+
+1. Thời giờ làm việc của người chưa đủ 15 tuổi không được quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần; không được làm thêm giờ, làm việc vào ban đêm.","[blld-2019 p30 0.744] 2. Thời giờ làm việc của người từ đủ 15 tuổi đến chưa đủ 18 tuổi không được quá 08 giờ trong 01 ngày và 40 giờ trong 01 tuần. Người từ đủ 15 tuổi đến chưa đủ 18 tuổi có thể được làm thêm giờ, làm việc vào ban đêm trong một số nghề, công việc theo danh mục do Bộ trưởng Bộ Lao động - Thương binh và Xã hội ban hành.","[blld-2019 p22 0.715] Chương VII
+
+THỜI GIỜ LÀM VIỆC, THỜI GIỜ NGHỈ NGƠI
+
+Mục 1. THỜI GIỜ LÀM VIỆC
+
+Điều 105. Thời giờ làm việc bình thường
+
+1. Thời giờ làm việc bình thường không quá 08 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần.",True,2,Top1 là Điều 146 khoản 1,"AI (Claude Opus 5.5), chưa được học viên xác nhận"
+q20,B,"Với hợp đồng thuê người giúp việc gia đình, nếu một bên muốn đơn phương chấm dứt hợp đồng thì phải báo trước bao lâu?",,Có thể chấm dứt bất kỳ khi nào nhưng phải báo trước ít nhất 15 ngày.,Một bên có quyền đơn phương chấm dứt hợp đồng lao động bất kỳ khi nào nhưng phải báo trước ít nhất 15 ngày.,[33],"[blld-2019 p16 0.697] 2. Thời gian thương lượng tập thể không được quá 90 ngày kể từ ngày bắt đầu thương lượng, trừ trường hợp các bên có thỏa thuận khác. Thời gian tham gia các phiên họp thương lượng tập thể của đại diện bên người lao động được tính là thời gian làm việc có hưởng lương.","[blld-2019 p33 0.693] Điều 162. Hợp đồng lao động đối với lao động là người giúp việc gia đình
+
+1. Người sử dụng lao động phải giao kết hợp đồng lao động bằng văn bản với lao động là người giúp việc gia đình.
+
+2. Thời hạn của hợp đồng lao động đối với lao động là người giúp việc gia đình do hai bên thỏa thuận. Một bên có quyền đơn phương chấm dứt hợp đồng lao động bất kỳ khi nào nhưng phải báo trước ít nhất 15 ngày.",[blld-2019 p5 0.683] b) Nếu hết thời hạn 30 ngày kể từ ngày hợp đồng lao động hết hạn mà hai bên không ký kết hợp đồng lao động mới thì hợp đồng đã giao kết theo quy định tại điểm b khoản 1 Điều này trở thành hợp đồng lao động không xác định thời hạn;,True,2,"Top2 có đáp án; top1 là nhiễu (Điều 70, 90 ngày)","AI (Claude Opus 5.5), chưa được học viên xác nhận"
+q21,B,Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động cá nhân là bao lâu?,,01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm.,Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động cá nhân là 01 năm kể từ ngày phát hiện ra hành vi,[39],"[blld-2019 p39 0.886] 2. Thời hiệu yêu cầu Hội đồng trọng tài lao động giải quyết tranh chấp lao động cá nhân là 09 tháng kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm.
+
+3. Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động cá nhân là 01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm.","[blld-2019 p39 0.854] Điều 190. Thời hiệu yêu cầu giải quyết tranh chấp lao động cá nhân
+
+1. Thời hiệu yêu cầu hòa giải viên lao động thực hiện hòa giải tranh chấp lao động cá nhân là 06 tháng kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm.","[blld-2019 p40 0.840] 2. Thời hiệu yêu cầu Hội đồng trọng tài lao động giải quyết tranh chấp lao động tập thể về quyền là 09 tháng kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền hợp pháp của mình bị vi phạm.
+
+3. Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động tập thể về quyền là 01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền hợp pháp của mình bị vi phạm.",True,2,Top1 có khoản 3 Điều 190,"AI (Claude Opus 5.5), chưa được học viên xác nhận"
+q17,C,Lao động nữ sinh đôi thì được nghỉ thai sản tổng cộng bao lâu?,,"07 tháng: 06 tháng nghỉ thai sản, cộng thêm 01 tháng cho con thứ 02 (thời gian nghỉ trước khi sinh không quá 02 tháng).","Trường hợp lao động nữ sinh đôi trở lên thì tính từ con thứ 02 trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng.",[29],"[blld-2019 p29 0.825] Điều 139. Nghỉ thai sản
+
+1. Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng. Trường hợp lao động nữ sinh đôi trở lên thì tính từ con thứ 02 trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng.
+
+2. Trong thời gian nghỉ thai sản, lao động nữ được hưởng chế độ thai sản theo quy định của pháp luật về bảo hiểm xã hội.","[blld-2019 p29 0.748] Trong trường hợp này, ngoài tiền lương của những ngày làm việc do người sử dụng lao động trả, lao động nữ vẫn tiếp tục được hưởng trợ cấp thai sản theo quy định của pháp luật về bảo hiểm xã hội.
+
+5. Lao động nam khi vợ sinh con, người lao động nhận nuôi con nuôi dưới 06 tháng tuổi, lao động nữ mang thai hộ và người lao động là người mẹ nhờ mang thai hộ được nghỉ việc hưởng chế độ thai sản theo quy định của pháp luật về bảo hiểm xã hội.",[blld-2019 p9 0.741] 3. Người lao động nữ mang thai; người lao động đang nghỉ thai sản hoặc nuôi con dưới 12 tháng tuổi.,True,2,Top1 có cả 06 tháng và câu sinh đôi,"AI (Claude Opus 5.5), chưa được học viên xác nhận"
+q18,C,"Theo Chương X, người sử dụng lao động có được bố trí lao động nữ đang mang thai từ tháng thứ 7 làm thêm giờ hoặc làm việc ban đêm không?","{""chapter"": 10}","Không được (cũng không được cử đi công tác xa); từ tháng thứ 06 nếu làm việc ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo.","Người sử dụng lao động không được sử dụng người lao động làm việc ban đêm, làm thêm giờ và đi công tác xa trong trường hợp sau đây: a) Mang thai từ tháng thứ 07",[28],"[blld-2019 p28 0.808] Điều 137. Bảo vệ thai sản
+
+1. Người sử dụng lao động không được sử dụng người lao động làm việc ban đêm, làm thêm giờ và đi công tác xa trong trường hợp sau đây:
+
+a) Mang thai từ tháng thứ 07 hoặc từ tháng thứ 06 nếu làm việc ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo;
+
+b) Đang nuôi con dưới 12 tháng tuổi, trừ trường hợp được người lao động đồng ý.","[blld-2019 p29 0.805] 3. Hết thời gian nghỉ thai sản theo quy định tại khoản 1 Điều này, nếu có nhu cầu, lao động nữ có thể nghỉ thêm một thời gian không hưởng lương sau khi thỏa thuận với người sử dụng lao động.","[blld-2019 p29 0.794] 4. Trước khi hết thời gian nghỉ thai sản theo quy định tại khoản 1 Điều này, lao động nữ có thể trở lại làm việc khi đã nghỉ ít nhất được 04 tháng nhưng người lao động phải báo trước, được người sử dụng lao động đồng ý và có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc đi làm sớm không có hại cho sức khỏe của người lao động.",True,2,Top1 là Điều 137 khoản 1 điểm a,"AI (Claude Opus 5.5), chưa được học viên xác nhận"
+q19,C,"Theo Chương XI, một em 14 tuổi đi làm thì được làm việc tối đa bao nhiêu giờ mỗi ngày?","{""chapter"": 11}","Không quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần; không được làm thêm giờ, làm việc ban đêm.",Thời giờ làm việc của người chưa đủ 15 tuổi không được quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần,[30],"[blld-2019 p30 0.781] Điều 146. Thời giờ làm việc của người chưa thành niên
+
+1. Thời giờ làm việc của người chưa đủ 15 tuổi không được quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần; không được làm thêm giờ, làm việc vào ban đêm.","[blld-2019 p30 0.744] 2. Thời giờ làm việc của người từ đủ 15 tuổi đến chưa đủ 18 tuổi không được quá 08 giờ trong 01 ngày và 40 giờ trong 01 tuần. Người từ đủ 15 tuổi đến chưa đủ 18 tuổi có thể được làm thêm giờ, làm việc vào ban đêm trong một số nghề, công việc theo danh mục do Bộ trưởng Bộ Lao động - Thương binh và Xã hội ban hành.","[blld-2019 p29 0.649] 3. Người từ đủ 13 tuổi đến chưa đủ 15 tuổi chỉ được làm công việc nhẹ theo danh mục do Bộ trưởng Bộ Lao động - Thương binh và Xã hội ban hành.
+
+4. Người chưa đủ 13 tuổi chỉ được làm các công việc theo quy định tại khoản 3 Điều 145 của Bộ luật này.
+
+Điều 144. Nguyên tắc sử dụng lao động chưa thành niên",True,2,Top1 là Điều 146 khoản 1,"AI (Claude Opus 5.5), chưa được học viên xác nhận"
+q20,C,"Với hợp đồng thuê người giúp việc gia đình, nếu một bên muốn đơn phương chấm dứt hợp đồng thì phải báo trước bao lâu?",,Có thể chấm dứt bất kỳ khi nào nhưng phải báo trước ít nhất 15 ngày.,Một bên có quyền đơn phương chấm dứt hợp đồng lao động bất kỳ khi nào nhưng phải báo trước ít nhất 15 ngày.,[33],"[blld-2019 p16 0.697] 2. Thời gian thương lượng tập thể không được quá 90 ngày kể từ ngày bắt đầu thương lượng, trừ trường hợp các bên có thỏa thuận khác. Thời gian tham gia các phiên họp thương lượng tập thể của đại diện bên người lao động được tính là thời gian làm việc có hưởng lương.","[blld-2019 p33 0.693] Điều 162. Hợp đồng lao động đối với lao động là người giúp việc gia đình
+
+1. Người sử dụng lao động phải giao kết hợp đồng lao động bằng văn bản với lao động là người giúp việc gia đình.
+
+2. Thời hạn của hợp đồng lao động đối với lao động là người giúp việc gia đình do hai bên thỏa thuận. Một bên có quyền đơn phương chấm dứt hợp đồng lao động bất kỳ khi nào nhưng phải báo trước ít nhất 15 ngày.",[blld-2019 p5 0.683] b) Nếu hết thời hạn 30 ngày kể từ ngày hợp đồng lao động hết hạn mà hai bên không ký kết hợp đồng lao động mới thì hợp đồng đã giao kết theo quy định tại điểm b khoản 1 Điều này trở thành hợp đồng lao động không xác định thời hạn;,True,2,"Top2 có đáp án; top1 là nhiễu (Điều 70, 90 ngày)","AI (Claude Opus 5.5), chưa được học viên xác nhận"
+q21,C,Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động cá nhân là bao lâu?,,01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm.,Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động cá nhân là 01 năm kể từ ngày phát hiện ra hành vi,[39],"[blld-2019 p39 0.886] 2. Thời hiệu yêu cầu Hội đồng trọng tài lao động giải quyết tranh chấp lao động cá nhân là 09 tháng kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm.
+
+3. Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động cá nhân là 01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm.","[blld-2019 p39 0.854] Điều 190. Thời hiệu yêu cầu giải quyết tranh chấp lao động cá nhân
+
+1. Thời hiệu yêu cầu hòa giải viên lao động thực hiện hòa giải tranh chấp lao động cá nhân là 06 tháng kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm.","[blld-2019 p40 0.840] 2. Thời hiệu yêu cầu Hội đồng trọng tài lao động giải quyết tranh chấp lao động tập thể về quyền là 09 tháng kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền hợp pháp của mình bị vi phạm.
+
+3. Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động tập thể về quyền là 01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền hợp pháp của mình bị vi phạm.",True,2,Top1 có khoản 3 Điều 190,"AI (Claude Opus 5.5), chưa được học viên xác nhận"

@@ -1,0 +1,107 @@
+{
+  "A": {
+    "dev": {
+      "n": 16,
+      "hit1": 5,
+      "hit3": 7,
+      "filter_questions": 4,
+      "filter_compliant": 2,
+      "gold_page_without_full_evidence": 5,
+      "hit1_str": "5/16",
+      "hit3_str": "7/16",
+      "filter_str": "2/4"
+    },
+    "all": {
+      "n": 21,
+      "hit1": 7,
+      "hit3": 10,
+      "filter_questions": 6,
+      "filter_compliant": 3,
+      "gold_page_without_full_evidence": 6,
+      "hit1_str": "7/21",
+      "hit3_str": "10/21",
+      "filter_str": "3/6"
+    },
+    "test": {
+      "n": 5,
+      "hit1": 2,
+      "hit3": 3,
+      "filter_questions": 2,
+      "filter_compliant": 1,
+      "gold_page_without_full_evidence": 1,
+      "hit1_str": "2/5",
+      "hit3_str": "3/5",
+      "filter_str": "1/2"
+    }
+  },
+  "B": {
+    "dev": {
+      "n": 16,
+      "hit1": 10,
+      "hit3": 13,
+      "filter_questions": 4,
+      "filter_compliant": 3,
+      "gold_page_without_full_evidence": 2,
+      "hit1_str": "10/16",
+      "hit3_str": "13/16",
+      "filter_str": "3/4"
+    },
+    "all": {
+      "n": 21,
+      "hit1": 14,
+      "hit3": 18,
+      "filter_questions": 6,
+      "filter_compliant": 4,
+      "gold_page_without_full_evidence": 2,
+      "hit1_str": "14/21",
+      "hit3_str": "18/21",
+      "filter_str": "4/6"
+    },
+    "test": {
+      "n": 5,
+      "hit1": 4,
+      "hit3": 5,
+      "filter_questions": 2,
+      "filter_compliant": 1,
+      "gold_page_without_full_evidence": 0,
+      "hit1_str": "4/5",
+      "hit3_str": "5/5",
+      "filter_str": "1/2"
+    }
+  },
+  "C": {
+    "dev": {
+      "n": 16,
+      "hit1": 10,
+      "hit3": 13,
+      "filter_questions": 4,
+      "filter_compliant": 4,
+      "gold_page_without_full_evidence": 2,
+      "hit1_str": "10/16",
+      "hit3_str": "13/16",
+      "filter_str": "4/4"
+    },
+    "all": {
+      "n": 21,
+      "hit1": 14,
+      "hit3": 18,
+      "filter_questions": 6,
+      "filter_compliant": 6,
+      "gold_page_without_full_evidence": 2,
+      "hit1_str": "14/21",
+      "hit3_str": "18/21",
+      "filter_str": "6/6"
+    },
+    "test": {
+      "n": 5,
+      "hit1": 4,
+      "hit3": 5,
+      "filter_questions": 2,
+      "filter_compliant": 2,
+      "gold_page_without_full_evidence": 0,
+      "hit1_str": "4/5",
+      "hit3_str": "5/5",
+      "filter_str": "2/2"
+    }
+  }
+}
